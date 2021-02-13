@@ -1,4 +1,4 @@
-##Game of life
+# Game of life
 
 Console version of the "game of life"
 
