@@ -83,7 +83,7 @@ function generateBoard(n, m) {
 }
 
 function printBoard(board) {
-    board.forEach(el => console.log(JSON.stringify(el)) )
+    board.forEach(el => console.log(JSON.stringify(el.map(el => el === 0 ? '.' : String(el)))) )
 }
 
 function startGame(board) {
